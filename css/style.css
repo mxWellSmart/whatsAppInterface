@@ -93,12 +93,6 @@ html {
 .user-search__input:focus::-webkit-input-placeholder {
   opacity: 0;
 }
-.user-search__input:focus {
-  width: 200%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 .user-search__btn {
   outline: none;
   border: none;

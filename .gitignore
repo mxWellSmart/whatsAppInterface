@@ -1,0 +1,4 @@
+#Log files
+*.log
+# scss pre compiled files
+css/style.css.map
