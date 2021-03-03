@@ -53,14 +53,31 @@ html {
 }
 
 .user-header__state {
-  padding: 1rem 1.6rem;
+  padding: 1.5rem 1.6rem;
   background-color: var(--header-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
 }
 
 .user-img {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+}
+
+.user-sts {
+  margin-right: 2rem;
+}
+
+.item {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.item:not(:first-child) {
+  margin-left: 2rem;
 }
 
 .search {
