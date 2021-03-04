@@ -61,8 +61,9 @@ html {
 }
 
 .user-img {
-  height: 4rem;
-  width: 4rem;
+  box-sizing: border-box;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
 }
 
@@ -84,6 +85,9 @@ html {
   padding: 1rem 1.6rem;
   background-color: var(--userSearch-background);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.search:focus-within {
+  background-color: white;
 }
 
 .user-search__input {
