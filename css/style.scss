@@ -61,9 +61,10 @@ html {
     align-items: initial;
 }
 .user-img {
-    box-sizing: border-box;
+    // box-sizing: border-box;
     height: 5rem;
     width: 5rem;
+    object-fit: cover;
     // background-image: cover;
     border-radius:50% ;
 }

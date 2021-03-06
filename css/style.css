@@ -61,9 +61,10 @@ html {
 }
 
 .user-img {
-  box-sizing: border-box;
   height: 5rem;
   width: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 
